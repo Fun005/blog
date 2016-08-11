@@ -1,0 +1,140 @@
+[Thu Aug 11 2016 18:01:26 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
+[Thu Aug 11 2016 18:11:32 GMT+0800 (中国标准时间)]/u/abc/2016-8-11/test
+ReferenceError: f:\blog\views\article.ejs:50
+    48|   <% } %>
+    49| </p>
+ >> 50| <%- include comment %>
+    51| <%- include footer %>
+
+f:\blog\views\comment.ejs:1
+ >> 1| <% if (!index && post.comments && config.duoshuo_shortname){ %>
+    2|   <section id="comments">
+    3|     <!-- 多说评论框 start -->
+    4|     <div class="ds-thread" data-thread-key="<%= post.layout %>-<%= post.slug %>" data-title="<%= post.title %>" data-url="<%= page.permalink %>"></div>
+
+index is not defined
+    at eval (eval at <anonymous> (f:\blog\node_modules\ejs\lib\ejs.js:495:12), <anonymous>:195:13)
+    at eval (eval at <anonymous> (f:\blog\node_modules\ejs\lib\ejs.js:495:12), <anonymous>:214:10)
+    at returnedFn (f:\blog\node_modules\ejs\lib\ejs.js:524:17)
+    at View.exports.renderFile [as engine] (f:\blog\node_modules\ejs\lib\ejs.js:378:31)
+    at View.render (f:\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:798:7)
+    at f:\blog\routes\index.js:273:11
+    at f:\blog\models\post.js:137:6
+    at handleCallback (f:\blog\node_modules\mongodb\lib\utils.js:96:12)
+    at f:\blog\node_modules\mongodb\lib\collection.js:1392:5
+    at handleCallback (f:\blog\node_modules\mongodb\lib\utils.js:96:12)
+    at f:\blog\node_modules\mongodb\lib\cursor.js:676:5
+    at handleCallback (f:\blog\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:156:5)
+    at nextFunction (f:\blog\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:671:5)
+    at f:\blog\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js:582:7
+[Thu Aug 11 2016 18:12:16 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
+[Thu Aug 11 2016 18:12:33 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
+[Thu Aug 11 2016 18:12:50 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
+    at Promise._fulfill (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:630:18)
+[Thu Aug 11 2016 18:37:39 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
+    at Promise._fulfill (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:630:18)
+[Thu Aug 11 2016 20:52:23 GMT+0800 (中国标准时间)]/u/abc
+ReferenceError: user is not defined
+    at f:\blog\routes\index.js:248:19
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at param (f:\blog\node_modules\express\lib\router\index.js:135:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\blog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\blog\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.initialize [as handle] (f:\blog\node_modules\passport\lib\middleware\initialize.js:53:5)
+    at next (f:\blog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at f:\blog\node_modules\express\node_modules\connect\node_modules\express-session\index.js:350:9
+    at tryCatcher (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\nodeify.js:23:30)
+    at Promise._settlePromise (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:558:21)
+    at Promise._settlePromise0 (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:606:10)
+    at Promise._settlePromises (f:\blog\node_modules\connect-mongo\node_modules\bluebird\js\release\promise.js:685:18)
